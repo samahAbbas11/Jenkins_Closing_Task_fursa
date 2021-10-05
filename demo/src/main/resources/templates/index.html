@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir="rtl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>YNET Breaking News</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link href="../static/css/main.css"
+          th:href="@{/css/main.css}"
+          rel="stylesheet" media="screen" />
+</head>
+<body dir="rtl">
+<div class="contentBox">
+    <div th:action="@{/}" style="margin:0">
+        <!--CNN-->
+        <div class="logo"><img th:src="@{http://www.ynet.co.il/images/CENTRAL_logo.gif}"/></div>
+        <p  th:utext="${feedParsed}"></p>
+
+    </div>
+
+</div>
+</body>
+</html>
