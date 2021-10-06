@@ -41,4 +41,8 @@ _______________________________________________
  
 <img width="1042" alt="screenshot" src="Screenshot_jenkins.png">
 
+_______________________________________________
+ ### Slack Notification  :
+ 
+<img width="500" alt="screenshot" src="Screenshot_slack.png">
 
