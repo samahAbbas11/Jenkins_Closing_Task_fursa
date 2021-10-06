@@ -13,7 +13,7 @@ pipeline {
             steps {
                 dir('demo/') {
                     sh "chmod +x gradlew"
-                    sh './gradlew clean build'
+                    sh './gradlew build'
                 }
                 
             }
