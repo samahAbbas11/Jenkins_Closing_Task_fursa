@@ -32,7 +32,4 @@ jar {
 		attributes "Main-Class": "com.example.demo.DemoApplication"
 	}
 
-	from {
-		configurations.implementation.collect { it.isDirectory() ? it : zipTree(it) }
-	}
 }
