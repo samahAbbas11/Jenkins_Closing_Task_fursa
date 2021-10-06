@@ -33,5 +33,12 @@ You can then access the app here: http://localhost:8181/ (OR with any IPv4)
 
 <img width="1042" alt="screenshot" src="Screenshot_ynet.png">
 
+_______________________________________________
+ ### Jenkins section  :
+ - created pipeline job in jenkins master
+ - import Jenkinsfile from the git repo
+ - Jenkinsfile file contains the pipline , where the job is divided into stages (clone, build, run/deploy)
+ 
+<img width="1042" alt="screenshot" src="Screenshot_jenkins.png">
 
 
